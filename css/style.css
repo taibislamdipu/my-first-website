@@ -41,10 +41,15 @@ button:hover {
   opacity: 0.8;
 }
 
-#logo {
+/* #logo {
   width: 150px;
-  margin: auto;
-  display: block;
+} */
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 150px;
 }
 
 .footer {
@@ -65,10 +70,23 @@ button:hover {
   padding: 7px;
 }
 
+input:active {
+  border: ;
+}
+
 input {
   margin: 10px;
   height: 30px;
   width: 200px;
   border-radius: 7px;
   padding-left: 20px;
+}
+
+/* #######  Media Query  #######*/
+
+@media (max-width: 1040px) {
+  .product-image img {
+    width: 100px;
+    height: 100px;
+  }
 }
